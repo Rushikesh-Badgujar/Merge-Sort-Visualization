@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+Array Generation: The visualizer allows users to generate a random array of a specified size. The generateArray function creates an array with random integer values within a given range.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+State Management: The visualizer uses React's state hook (useState) to manage the array state. The array state variable holds the current state of the array.
 
-## Available Scripts
+Merge Sort Algorithm: The mergeSort function implements the merge sort algorithm. It recursively divides the array into smaller subarrays until they have a length of 1. Then, it merges and sorts the subarrays to form the sorted final array.
 
-In the project directory, you can run:
+Visualization: The visualizer provides a graphical representation of the sorting process. This can be achieved using CSS or other visual effects libraries in combination with React's rendering capabilities.
 
-### `npm start`
+Animation and Delay: To visualize the sorting process step by step, animation and delay mechanisms can be implemented. This allows users to see how the array elements are compared, swapped, and merged during the sorting algorithm.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+User Interface: The visualizer may include a user interface with buttons or sliders to control the array size, start or reset the sorting process, and adjust the speed of the visualization.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+React Components: The visualizer can be built using multiple React components to organize the code and separate concerns. For example, there could be a component for the array visualization, another for the control panel, and so on.
 
-### `npm test`
+Responsive Design: The visualizer should be designed to be responsive and compatible with different screen sizes and devices. This ensures a good user experience across various platforms.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Error Handling: The visualizer can include error handling mechanisms to handle invalid input, such as negative array sizes or incorrect data types.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Code Structure and Modularity: The visualizer code should follow best practices for code structure, modularity, and maintainability. It can be organized into reusable functions and components to make the code easier to read, understand, and maintain.
